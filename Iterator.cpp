@@ -2,10 +2,12 @@
 
 Iterator::Iterator(Node* node) : current(node) {}
 
+// Sprawdza czy istnieje nastêpny element
 bool Iterator::hasNext() {
     return current && current->next;
 }
 
+// Sprawdza czy istnieje poprzedni element
 bool Iterator::hasPrev() {
     return current && current->prev;
 }

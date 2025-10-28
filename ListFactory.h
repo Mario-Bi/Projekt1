@@ -5,7 +5,7 @@
 
 class ListFactory {
 public:
-    static DoublyLinkedList* createList();
+    static DoublyLinkedList* createList(); 
 };
 
 #endif
